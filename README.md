@@ -44,17 +44,17 @@ API Endpoints:
     3. Description: Retrieves detailed information about a specific branch using its IFSC code
     4. Example: URL: http://127.0.0.1:8000/api/branches/HDFC0000053/
     5. Response:
-           {
-              "ifsc": "HDFC0000053",
-              "branch": "MG ROAD",
-              "address": "123 MG Road, Bangalore",
-              "city": "Bangalore",
-              "district": "Bangalore Urban",
-              "state": "Karnataka",
-              "bank":
-                {
-                  "name": "HDFC Bank"
-                }  
-            }
+       {
+          "ifsc": "HDFC0000053",
+          "bank": {
+              "bank_id": 5,
+              "name": "HDFC BANK"
+          },
+          "branch": "BANGALORE - KORAMANGALAM",
+          "address": "NO.9, ETERNAKORAMANGLA INDUSTRIAL LAYOUTKORAMANGLABANGALOREKARNATAKA560095",
+          "city": "BANGALORE",
+          "district": "BANGALORE URBAN",
+          "state": "KARNATAKA"
+       }
 
 Run Unit Tests: python manage.py test
