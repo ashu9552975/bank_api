@@ -39,7 +39,7 @@ API Endpoints:
     3. Description: Retrieves a list of all banks
 
 2. Retrieve Branch Details by IFSC Code:
-    1. URL:http://127.0.0.1:8000/api/branches/<ifsc>/
+    1. URL:http://127.0.0.1:8000/api/branches/(ifsc)/
     2. Method: GET
     3. Description: Retrieves detailed information about a specific branch using its IFSC code
     4. Example: URL: http://127.0.0.1:8000/api/branches/HDFC0000053/
