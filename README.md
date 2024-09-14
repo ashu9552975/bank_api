@@ -1,7 +1,5 @@
 Bank Branches API
 
-Time taken to complete this Assignment: 3 Days. 
-
 Overview: 
 This project is a Django-based REST API that allows users to retrieve information about banks and their branches in India. The API provides endpoints to get a list of banks and detailed branch information based on the IFSC code.
 
